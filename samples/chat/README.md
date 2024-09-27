@@ -1,6 +1,6 @@
 ---
 name: ChatGPT-like app with your data (Python)
-description: Chat with your domain data using Azure OpenAI and Azure AI Search.
+description: Chat with your domain data using Azure OpenAI and Azure AI Search.   
 languages:
 - python
 - typescript

@@ -1,6 +1,7 @@
 Write-Host ""
 Write-Host "Loading azd .env file from current environment"
 Write-Host ""
+Write-host "SecretPassword"
 
 foreach ($line in (& azd env get-values)) {
     if ($line -match "([^=]+)=(.*)") {
